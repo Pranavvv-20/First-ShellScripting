@@ -1,5 +1,4 @@
 #!/bin/bash
-[ -z "$CRLF_FIXED" ] && CRLF_FIXED=1 exec bash <(tr -d '\r' < "$0") "$@" #
 
 file="todo.txt"
 
